@@ -1,0 +1,26 @@
+.searchbar-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.inputbox {
+    background-color: rgb(238, 237, 237);
+    border: none;
+    width: 17em;
+    height: 4em;
+    outline: none;
+    padding: 0 0 0 1em;
+    color: gray;
+}
+
+.searchbar {
+    background-color: rgb(238, 237, 237);
+    width: 17em;
+    height: 4em;
+    border-radius: 5px;
+}
+
+.search-logo {
+    color: gray;
+}

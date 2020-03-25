@@ -1,16 +1,3 @@
-* {
-  padding: 0;
-  margin: 0; }
-
-.header-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 5%;
-  height: 8em;
-  background-color: burlywood;
-  color: #686464; }
-
 .searchbar-wrapper {
   display: flex;
   justify-content: center;
