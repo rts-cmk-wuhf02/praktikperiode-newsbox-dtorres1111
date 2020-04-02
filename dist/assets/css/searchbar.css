@@ -6,16 +6,17 @@
 .inputbox {
   background-color: #eeeded;
   border: none;
-  width: 17em;
-  height: 4em;
+  width: 21.5em;
+  height: 2.8em;
   outline: none;
   padding: 0 0 0 1em;
-  color: gray; }
+  color: gray;
+  border-radius: 5px; }
 
 .searchbar {
   background-color: #eeeded;
-  width: 17em;
-  height: 4em;
+  width: 21.5em;
+  height: 2.8em;
   border-radius: 5px; }
 
 .search-logo {
