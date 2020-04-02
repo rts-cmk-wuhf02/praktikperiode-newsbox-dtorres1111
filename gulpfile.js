@@ -4,7 +4,7 @@ const rename = require("gulp-rename");
 const connect = require("gulp-connect");
 const sass = require("gulp-sass");
 const imagemin = require("gulp-imagemin")
-
+const postcss = require('gulp-postcss');
 
 sass.compiler = require('node-sass');
 
@@ -101,3 +101,13 @@ gulp.task("build", function (done) {
     done();
 });
 
+//TAILWIND TASK
+
+gulp.task('css', function () {
+    return gulp.src('./src/styles.css')
+        .pipe(postcss([
+            require('tailwindcss'),
+            require('autoprefixer'),
+        ]))
+        .pipe(gulp.dest('./build/'))
+})
